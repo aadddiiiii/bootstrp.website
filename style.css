@@ -1,0 +1,129 @@
+ body{
+    overflow-x: hidden;
+ }
+ .sidebar-container {
+  display: flex;
+}
+.mainnav {
+  padding-left: 0px;
+  height: 3.625rem;
+  z-index: 4;
+  font-size: 0.9rem;
+}
+
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  z-index: 3;
+  overflow: scroll;
+}
+.sidenav {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  font-size: 14.4px;
+}
+
+.sidenav-light {
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 40, 50);
+}
+.shadow-right {
+  box-shadow: rgba(33, 40, 50, 0.15) 0.15rem 0px 1.75rem 0px !important;
+}
+ .sidenav .sidenav-menu .nav {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+.sidenav .sidenav-menu .nav .sidenav-menu-heading {
+  padding: 1.75rem 1rem 0.75rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.sidenav .sidenav-menu .nav .nav-link {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+}
+.sidenav-light .sidenav-menu .nav-link {
+  color: #3c434d;
+}
+.sidenav .sidenav-menu .nav .nav-link .nav-link-icon {
+  font-size: 0.9rem;
+  padding-right: 0.5rem;
+  display: inline-flex;
+}
+.sidenav .sidenav-menu .nav .nav-link .sidenav-collapse-arrow {
+  display: inline-block;
+  margin-left: auto;
+}
+ 
+ .ms-5 {
+  margin-left: 38rem !important;
+}
+
+.header {
+  width: 1097px;
+  height: 256px;
+  margin-left: 128px;
+  background: linear-gradient(
+    135deg,
+    rgb(0, 97, 242) 0%,
+    rgba(105, 0, 199, 0.8) 100%
+  ) !important;
+  text-align: center;
+}
+
+.container1 {
+  position: absolute;
+  left: 241px;
+}
+.images{
+    margin-top: -97px;
+    margin-left: -95px;
+}
+.trads {
+  margin-left: 41px;
+  margin-top: 97px;
+}
+.default {
+  width: 350px;
+  height: 290px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.text-center {
+  position: relative;
+  top: 316px;
+  right: 235px;
+}
+.affiliate {
+  width: 350px;
+  height: 290px;
+  margin-left: -110px;
+  margin-top: 106px;
+  border-radius: 10px;
+}
+.text-center1 {
+  position: relative;
+  top: 20px;
+  right: 45px;
+}
+.text-center2 {
+  position: relative;
+  top: 20px;
+  right: -105px;
+}
+.multipurpose{
+    width: 350px;
+    height: 290px;
+    margin-top: 106px;
+    margin-left: 20px;
+}
+
